@@ -1,0 +1,28 @@
+.Logo {
+    width: 30px;
+    padding: 10px 5px 0px 10px;
+}
+.Menu {
+    background-color: #333;
+    margin-bottom: 40px;
+}
+
+.Menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.Menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Menu li a.active {
+    color: #25c9de;
+}

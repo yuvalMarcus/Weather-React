@@ -1,0 +1,10 @@
+.UpdateLo {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    padding: 5px;
+    background-color: #8BC34A;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

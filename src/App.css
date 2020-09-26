@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+  background: #54a2f8 linear-gradient(to right top, #1d4481, #3e5196, #5c5daa, #7b6abe, #9a76d0, #7c8de8, #54a2f8, #00b5ff, #00ceff, #00e3e6, #00f3ab, #73fb5f);
+}
+
+p {
+  font-size: 22px;
+  margin: 0;
+}
+
+.WeatherBox {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid rgba(241, 241, 241, 0.6509803921568628);
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(51, 51, 51, 0.2);
+  box-shadow: 2px 2px 10px 2px rgba(255, 255, 255, 0.2);
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.WeatherBox h1, .WeatherBox h2 {
+  color: #607D8B;
+}
+.WeatherContent {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+.WeatherContent .Column-6 {
+  width: 50%;
+}
+.WeatherContent .Column-4 {
+  width: 33%;
+}
+.WeatherContent .Column-3 {
+  width: 25%;
+}
+.WeatherContent .Column-2-5 {
+  width: 20%;
+}
+.WeatherResult .wi {
+  margin-bottom: 20px;
+}
+.TemperatureResult .wi {
+  padding-left: 10px;
+}
+.font-size-3rem {
+  font-size: 3rem;
+}
+.UpdateLo {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  padding: 5px;
+  background-color: #8BC34A;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .WeatherContent .Column-6, .WeatherContent .Column-4 {
+    width: 100%;
+  }
+
+  .WeatherContent .Column-2-5 {
+    width: 50%;
+  }
+
+}
